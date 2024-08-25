@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>ENQURIY FROM</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="rr.html">
+
+  <style>
+    b {
+      font-style: bold;
+      font-display: inherit;
+      font-family: cursive;
+      color: orange;
+      font-size: xx-large;
+    }
+
+    table {
+      padding-left: 100px;
+      padding-top: 50px;
+      padding-right: 100px;
+      padding-bottom: 100px;
+      margin-top: 160px;
+      border-radius: 6px;
+      background-size: 300px;
+      background-color: transparent;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color: rgb(252, 225, 238);
+
+    }
+
+    #reset {
+      float: left;
+      background-color: rgb(252, 225, 238);
+      border-radius: 2px;
+      background-color: rgb(252, 225, 238);
+    }
+
+    #submit {
+
+      float: right;
+
+      background: transparent;
+
+
+    }
+
+    input[type=text] {
+      border: rgb(252, 225, 238);
+    }
+
+    input[type=date] {
+      border: rgb(252, 225, 238);
+    }
+
+    input[type=file] {
+      border: rgb(252, 225, 238);
+    }
+
+    input[type=email] {
+      border: rgb(252, 225, 238);
+    }
+
+    input[type=password] {
+      border: rgb(252, 225, 238);
+    }
+
+    :placeholder-shown {
+      color: rgb(252, 225, 238);
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 10px;
+      margin: 2px;
+      display: flex;
+      justify-content: right;
+      background-color: rgb(222, 222, 175);
+    }
+
+    li {
+      margin: 0px 15px;
+
+    }
+
+    footer {
+      background-color: rgb(252, 225, 238);
+      margin: 55px;
+      padding: 10pxpx;
+      text-align: center;
+
+    }
+
+
+  </style>
+</head>
+
+<body bgcolor="powderblue">
+
+  <header>
+    <nav>
+      <div>
+        <ul>
+          <li>
+            <a href="google.com">home</a>
+          </li>
+          <li>
+            <a href="#">account</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+ <center>
+    <form>
+      <table>
+        <tr>
+          <td>
+            <h3><i class="fas fa-address-card"></i>ENQURIY FORM</h3>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="1"><input type="radio" name="GENDER" id="1" required>male</label>
+          </td>
+          <td>
+            <label for="2"><input type="radio" name="GENDER" id="2" required>female</label>
+          </td>
+          <td>
+            <label for="3"><input type="radio" name="GENDER" id="3" required>other</label>
+          </td>
+        </tr>
+        <tr>
+          <td><i class="fas fa-user"></i>FIRST NAME</td>
+          <td><input type="text" placeholder="FIRST NAME" required maxlength="7"></td>
+
+
+        </tr>
+        <tr>
+          <td><i class="fas fa-user"></i>LAST NAME</td>
+          <td> <input type="text" placeholder="LAST NAME" required maxlength="10"></td>
+        </tr>
+        <tr>
+          <td><i class="fas fa-calendar"></i>DOB</td>
+          <td> <input type="date" required></td>
+        </tr>
+        <tr>
+          <td><i class="fa fa-folder-open"></i>ATTECH YOUR DOCUMENTS</td>
+          <td> <input type="file" id="#" name="#" accept="image/png, image/jpeg,.pdf" required multiple >
+          </td>
+        </tr>
+        <tr>
+          <td><i class="fas fa-envelope"></i>EMAIL</td>
+          <td><input type="email" name="email" id="" placeholder="EMAIL" required></td>
+        </tr>
+        <td><i class="fas fa-lock"></i>PASSWORD</td>
+        <td><input type="password" placeholder="PASSWORD" required> </td>
+        </tr>
+
+        <tr>
+          <td><i class="checkbox">
+              <label for="4">
+                <input type="checkbox" required id="4"><a href="condition&policy.html">all conditon&policy agree</a></label>
+
+            </i></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="reset" value="Reset" id="reset">
+            <input type="submit" value="Submit" id="submit">
+
+          </td>
+        </tr>
+      </table>
+
+    </form>
+  </center>
+
+
+</body>
+<script src="FIRST.js"></script>
+<footer>
+  <p> &copy; roshan</p>
+</footer>
+
+</html>
